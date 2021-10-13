@@ -1,4 +1,7 @@
-
+*{
+    margin: 0px;
+    padding: 0px;
+    }
 body{
     min-height: 600px;
 }
