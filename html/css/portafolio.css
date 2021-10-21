@@ -60,10 +60,12 @@ header nav ul li a:hover{
 section#main{   /*section#main  corre un poco mejor*/
     background-color:black;
     height: 100vh;   /* vh ancho de la pantalla*/
+    width: 100%;
+    overflow: hidden; /* lo que se desporde se oculte*/
 }
 #main video{
-    width: 100%;
-    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
 }
 #main #overlay{
     width: 100%;
@@ -98,6 +100,8 @@ section#main{   /*section#main  corre un poco mejor*/
     padding: 8px;
     font-size: 1rem;
     font-weight: lighter;
+    background-color: var(--main-color);
+    color: whitesmoke;
 }
 .btn-primary{
     background-color: var(--main-color);
@@ -110,3 +114,170 @@ a.btn{
     color: white;
     text-decoration: none;  
 }
+#about, #contacto, #proyectos{
+    width: 80%;
+    height: 700px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#about .col, #contacto .col{
+    float: left;
+    width: 50%;
+    text-align: justify;
+}
+#about > h2{              /*  > expesifica que quien va afectar*/
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+#about > .col > h2{
+    font-size: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    padding-bottom: 50px;
+}
+#about .col img{
+    width: 70%;
+    display: block;
+    margin: 20px auto;
+}
+#about .col p{
+    margin-top: 50px;
+}
+/*#pantallasitios{
+    width: 100%;
+    height: 700px;
+}*/
+#proyectos h2{
+
+}
+#proyectos .sitios{
+    float: left;
+    width: 24%;
+    height: 340px;
+    margin-top: 15px;
+    margin-left: 0.25%;
+    margin-right: 0.25%;
+    border-radius: 15px;
+    background-color: whitesmoke;
+}
+#proyectos .sitios img{
+    width: 100%;
+    height: 160px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
+#proyectos h2{
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+#proyectos .sitios h3{
+    margin-top: 5px;
+    margin-left: 10%;
+    font-size: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+}
+#proyectos .sitios p{
+    text-align: center;
+    font-size: 0.8rem;
+    margin-bottom: 25px;
+}
+#proyectos .sitios button{
+    width: 68%;
+    height: 50px;
+    border: none;
+    border-radius: 4px;
+    
+    font-size: 1rem;
+    margin-left: 16%;
+    margin-right: 16%;
+    background-color: var(--main-color);
+    color: whitesmoke;
+    
+}
+
+
+
+#frase{
+    width: 100%;
+    height: 450px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+#frase img{
+    width: 100%;
+    height: 60%;
+    
+}
+#frase #cuadrotexto{
+    
+    
+    position: absolute;
+    width: 100%;
+    
+    /*opacity: 0.8;*/
+    
+
+} 
+ #cuadrotexto h2{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    color: whitesmoke;
+}
+
+
+
+#contacto .formulario{
+    list-style: none;
+    margin-top: 15px;
+}
+#contacto .formulario .textoinsertar{
+    width: 80%;
+    height: 35px;
+    border: none;
+    color: rgb(153, 141, 141);
+    
+}
+#contacto  .forultimo > .textoinsertar{
+    height: 130px;
+    
+}
+
+
+#contacto  h2{
+    margin-left: -5%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    color: var(--text-color);
+}
+
+
+#cuadrofinal{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: var(--text-color);
+    
+}
+
+#cuadrofinal .textofinal{
+    width: 100%;
+}
+
+#cuadrofinal .textofinal p{
+    font-size: 0.7rem;
+    color: whitesmoke;
+    text-align: center;
+}
+
