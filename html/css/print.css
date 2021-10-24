@@ -1,0 +1,39 @@
+
+#main video {
+    display: none;
+}    
+body {
+    background-color: white;
+
+}
+
+#frase{
+    display: none;
+}
+header {
+    display: none;
+    
+}
+header #logo .item {
+    display: none;
+    font-display: none;
+}
+#menuWeb li a {
+    font-display: none;
+}
+#contacto .col:nth-child(2){
+    display: none;
+}
+#contacto {
+    align-items: center;
+    margin-top: 150px;
+}
+#contacto .col{
+    
+}
+#cuadrofinal{
+    display: none;
+}
+#proyectos{
+    margin-top: 110px;
+}
