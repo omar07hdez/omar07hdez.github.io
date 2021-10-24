@@ -12,13 +12,16 @@
         padding-top: 30px;
     }
     section#main{
-        float: left;
-        background-color: none;
+        
+        background-color: cornsilk;
     }
     #about .col, #contacto .col{
         float: none;
         width: 100%;
       
+    }
+    #about > .col > h2{
+        text-align: center;
     }
     #proyectos .sitios{
         width: 80%;
@@ -44,7 +47,7 @@
     #main #overlay{
         background-image: url(../img/ola.jpg);
         /*background-size: 100vh 100vh ;*/
-        background-size: 100%  ;
+        background-size: 100% 100% ;
         background-color: none;
     }
     #main #overlay h2 {
