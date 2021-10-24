@@ -11,6 +11,9 @@
     #about > h2 {
         padding-top: 30px;
     }
+    section#main{
+        background-color: none;
+    }
     #about .col, #contacto .col{
         float: none;
         width: 100%;
