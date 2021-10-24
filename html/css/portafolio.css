@@ -132,11 +132,12 @@ a.btn{
     float: left;
     width: 50%;
     text-align: justify;
+    margin-top: 25px;
 }
 #about > h2{              /*  > expesifica que quien va afectar*/
     text-align: center;
     font-size: 3rem;
-    padding-top: 30px;
+    /*padding-top: 30px;*/
     font-family: 'Open Sans', sans-serif;
 }
 #about > .col > h2{
@@ -178,6 +179,7 @@ a.btn{
 #proyectos h2{
     font-size: 1rem;
     font-family: 'Open Sans', sans-serif;
+    margin-top: 25px;
     
 }
 #proyectos .sitios h3{
