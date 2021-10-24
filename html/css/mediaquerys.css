@@ -1,0 +1,49 @@
+@media (max-width: 500px){
+    header nav{
+        width: 50px;
+    }
+    header #menuMovil{
+        display: block;
+    }
+    header #menuWeb{
+        display: none;
+    }
+    #about .col, #contacto .col{
+        float: none;
+        width: 100%;
+      
+    }
+    #proyectos .sitios{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    #contacto .col:nth-child(2){
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+    }
+    #about .col p {
+        margin-top: 15px;
+        margin-bottom: 50px;
+    }
+    
+    /*#about, #contacto, #proyectos{
+        height: auto;
+    }*/
+    #main video{
+        display: none;
+    }
+    #main #overlay{
+        background-image: url(../img/ola.jpg);
+        background-size: 100vh 100vh ;
+    }
+    #main #overlay h2 {
+        margin-top: 140px;
+        font-size: 4rem;
+    }
+
+}
+@media (max-width: 700px){
+
+}

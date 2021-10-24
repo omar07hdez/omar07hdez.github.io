@@ -33,8 +33,11 @@ header #logo{
 header nav{
     margin: 10px;
     margin-right: 10%;
-    width: 540px;
+    width: 500px;
     
+}
+header #menuMovil{
+    display: none;
 }
 header nav ul li{
     float: left;
@@ -116,9 +119,14 @@ a.btn{
 }
 #about, #contacto, #proyectos{
     width: 80%;
-    height: 700px;
+    min-height: 700px;
+    padding-top: 80px;
     padding-left: 10%;
     padding-right: 10%;
+}
+
+#proyectos{
+    height: 635px;
 }
 #about .col, #contacto .col{
     float: left;
@@ -149,9 +157,7 @@ a.btn{
     width: 100%;
     height: 700px;
 }*/
-#proyectos h2{
 
-}
 #proyectos .sitios{
     float: left;
     width: 24%;
