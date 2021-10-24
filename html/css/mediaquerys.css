@@ -9,10 +9,10 @@
         display: none;
     }
     #about > h2 {
-        padding-top: 30px;
+        padding-top: 15px;
     }
     section#main{
-        float: left;
+        background-color: cornsilk;
         
     }
     #about .col, #contacto .col{
@@ -48,7 +48,7 @@
         background-image: url(../img/ola.jpg);
         /*background-size: 100vh 100vh ;*/
         background-size: 100% 100% ;
-        float: left;
+        
     }
     #main #overlay h2 {
         margin-top: 140px;
