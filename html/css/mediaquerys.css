@@ -12,7 +12,7 @@
         padding-top: 30px;
     }
     section#main{
-        background-color: red;
+        background-color: none;
     }
     #about .col, #contacto .col{
         float: none;
@@ -44,6 +44,7 @@
         background-image: url(../img/ola.jpg);
         /*background-size: 100vh 100vh ;*/
         background-size: 100%  100%;
+        background-color: none;
     }
     #main #overlay h2 {
         margin-top: 140px;
