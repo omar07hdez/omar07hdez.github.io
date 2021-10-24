@@ -43,7 +43,7 @@
     #main #overlay{
         background-image: url(../img/ola.jpg);
         /*background-size: 100vh 100vh ;*/
-        background-size: 100%  100%;
+        background-size: 100%  ;
         background-color: none;
     }
     #main #overlay h2 {
