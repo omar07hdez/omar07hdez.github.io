@@ -1,0 +1,35 @@
+@media (max-width: 540px){
+    header nav{
+        width: 50px;
+    }
+    header #menuMovil{
+        display: block;
+    }
+    header #menuWeb{
+        display: none;
+    }
+    #about > h2 {
+        padding-top: 15px;
+    }
+    section#inicio{
+        background-color: cornsilk;
+        
+    }
+    #inicio video{
+        display: none;
+    }
+    #overlay{
+        background-image: url(../img/ola.jpg);
+        /*background-size: 100vh 100vh ;*/
+        background-size: 100% 100% ;
+        
+    }
+    #overlay h2 {
+        margin-top: 140px;
+        font-size: 4rem;
+    }
+
+}
+@media (max-width: 700px){
+
+}
