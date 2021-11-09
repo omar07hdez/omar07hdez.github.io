@@ -1,0 +1,287 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+
+}
+
+body{
+    
+    max-height: 635px;
+    background-color: rgb(167, 3, 3);
+    font-size: 100%;
+}
+
+
+section .cowInicio{
+/*
+animation-name: cowLogin;
+animation-duration: 5s;
+animation-iteration-count: 1;
+bottom: 0%;
+left: 0%;*/
+width: 65%; /*902px*/
+height: 100%;
+float: left;
+/*position: absolute;
+float: left;*/
+
+/*transform: rotate(-18deg);*/
+        
+}
+
+section .cowInicio img{
+width: 100%;
+height: 100%;
+
+
+/*background-size: 100% 100%;
+ */
+
+}
+
+section .cowInicio:nth-child(2){
+    width: 35%;
+    height: 100%;
+    background-color: #333D29;
+    
+    
+}
+#entrar{
+    width: 50%;
+    height: 60%;
+    margin-top: 30%;
+    margin-bottom: 10%;
+    margin-left: 25%;
+    margin-right: 25%;
+    
+}
+#entrar input{
+    width: 100%;
+}
+#entrar .cuadrousuario{
+    margin-bottom: 15%;
+}
+#entrar .cuadrosugerencias p{
+    font-size: 0.6em;
+    float: left;
+}
+#entrar .cuadrosugerencias .parrafoprincipal{
+    margin-right: 8%;
+}
+
+.cuadrosugerencias  .registro {
+    
+    color: #936639;
+
+}
+.cuadrosugerencias  .pass{
+    color: #C2C5AA;
+}
+p{
+    color: #C2C5AA;
+}
+
+h2{
+    font-size: 1.8rem;
+    margin-bottom: 15%;
+    color: #A4AC86;
+}
+h3{
+    font-size: 1.5rem;
+    margin-bottom: 2%;
+    color: #C2C5AA;
+
+}
+
+.form{
+    width: 100%;
+    height: 50px;
+    max-width: 400px;
+    position: relative;
+    overflow: hidden;
+}
+.form input{
+    width: 100%;
+    height: 100%;
+    background: none;
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+    border: none;
+    outline: 0px;
+}
+.form .lbl-nombre{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    border-bottom: 2px solid #B6AD90;
+}
+.form .lbl-nombre:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 100%;
+    border-bottom: 3px solid #936639;
+    transform: translateX(-100%);
+    transition: all 0.3s ease;
+}
+.text-nomb{
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    transition: all 0.3s ease;
+    color: #646A45;
+}
+.form input:focus + .lbl-nombre .text-nomb,.form input:valid + .lbl-nombre .text-nomb{
+    transform: translateY(-150%);
+    font-size: 14px;
+    color: #936639;/*#2ecece*/
+}
+.form input:focus + .lbl-nombre:after, .form input:valid + .lbl-nombre:after{
+    transform: translateX(0%);
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+ .form{
+    width:85%;
+}
+    }
+button{
+    margin-top: 15%;
+    margin-bottom: 5%;
+    background-color: #936639;
+    width: 100%;
+    height: 15%;
+}
+
+
+
+.btn-neon{
+    width: 100%;
+    margin-top: 15%;
+    margin-bottom: 5%;
+    position: relative;
+    display: inline-block;
+    background-color: rgb(147, 102, 57,0.2);
+    padding: 23px 30px;
+    color: #C2C5A8;
+    letter-spacing: 4px;
+    text-decoration: none;
+    /*font-size: 24px;*/
+    overflow: hidden;
+    transition: 0.2s;
+    text-align: center;
+}
+.btn-neon:hover{
+    background: #936639;/*#a945c7*/
+    box-shadow: 0 0 10px #936639, 0 0 40px #936639, 0 0 80px #936639;
+    transition-delay: 1s;
+ }
+.btn-neon span{
+    position: absolute;
+    display: block;
+}
+#span1{
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent,#936639);
+ }
+ .btn-neon:hover #span1{
+    left: 100%;
+    transition: 1s;
+}
+ #span3{
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent,#936639);
+}
+ .btn-neon:hover #span3{
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+#span2{
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#936639);
+}
+.btn-neon:hover #span2{
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+#span4{
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#936639);
+}
+.btn-neon:hover #span4{
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+
+
+
+
+
+#parteIzInicio{
+background-color:#333D29;
+left: 66%;
+
+bottom: 0%;
+width: 464px; /*464px*/
+height: 100%;  /*100%*/
+position: absolute;
+/*z-index: 5;*/
+
+}
+
+/*ANIMACIONES*/
+
+
+@keyframes cowLogin{
+    4%{
+        width: 0%;/**/
+        height: 100%;
+        position: absolute;        
+
+    }
+   
+    100%{
+        width: 65%;/**/
+        height: 100%;
+        position: absolute;
+
+    }
+
+
+
+}
+
+section {
+    
+    width: 100%;
+    height:100vh;
+    position: relative;
+    display: flex;
+    /*flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    
+    padding: 100px 20vw;*/
+    
+    
+}
