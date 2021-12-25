@@ -145,7 +145,7 @@ h3{
 }
 .form input:focus + .lbl-nombre .text-nomb,.form input:valid + .lbl-nombre .text-nomb{
     transform: translateY(-150%);
-    font-size: 14px;
+    font-size: 12px;
     color: #936639;/*#2ecece*/
 }
 .form input:focus + .lbl-nombre:after, .form input:valid + .lbl-nombre:after{
