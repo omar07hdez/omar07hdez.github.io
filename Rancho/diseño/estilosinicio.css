@@ -145,7 +145,7 @@ header nav ul li a:hover{
     border-bottom: 25vh solid #577a29;*/
     /*border-right: 25vh  solid #60bfcc;*/
     border-top: 50vh  solid #2c0549;
-    border-left: 25vh  solid aquamarine;
+    border-left: 25vh  solid transparent;
     border-bottom: 50vh  solid #2c0549;
 
 }
