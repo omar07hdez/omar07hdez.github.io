@@ -1,0 +1,16 @@
+@media (max-width: 1050px){
+    header nav{
+        width: 50px;
+    }
+    header #menuMovil{
+        display: block;
+    }
+    header #menuWeb{
+        display: none;
+    }
+
+
+
+
+
+}
