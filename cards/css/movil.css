@@ -1,0 +1,73 @@
+@media (max-width: 1050px){
+    body {
+
+    
+        width: 100%;
+        /*height:100vh;*/
+        /*position: relative;*/
+        /*overflow-x:scroll;*/
+        
+        flex-direction: column;
+        /*flex-direction: column;
+        align-items: center;
+        min-height: 400px;
+        
+        padding: 100px 20vw;*/
+        
+        
+    }
+    .primero{
+        width:  100%;
+        height: 30%;
+        background: #333469;
+    } 
+    .segundo{
+        width: 100%;
+        height: 70%;
+        background: #333D29;
+    
+    }
+    section .cowInicio{
+        /*
+        animation-name: cowLogin;
+        animation-duration: 5s;
+        animation-iteration-count: 1;
+        bottom: 0%;
+        left: 0%;*/
+        width: 100%; /*902px*/
+        /*height: 100%;*/
+        /*float: left;*/
+        /*position: absolute;
+        float: left;*/
+        
+        /*transform: rotate(-18deg);*/
+                
+    }
+    section .cowInicio:nth-child(2){
+        width: 100%;
+        height: 450vh;
+        background-color: #333D29;
+        
+        
+    }
+    #entrar{
+        width: 80%;
+        height: 60%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        margin-left: 10%;
+        margin-right: 10%;
+        
+    }
+    .form{
+        width: 100%;
+        height: 60px;
+        /*max-width: 400px;*/
+        position: relative;
+        overflow: hidden;
+        
+    }
+   
+
+
+}

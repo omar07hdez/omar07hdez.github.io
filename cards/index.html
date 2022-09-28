@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/css.css" />
+    <link rel="stylesheet" href="./css/movil.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <title>Document</title>
+  </head>
+  <body>
+    
+    <div class="primero">
+      <!-- particles.js container -->
+      <div id="particles-js" class="primero"></div>
+      <!-- stats - count particles -->
+      <!--<div class="count-particles"> <span class="js-count-particles">--</span> particles </div>  particles.js lib - https://github.com/VincentGarreau/particles.js -->
+     
+    </div>
+    <div class="segundo">
+      <!--<button class="buttonEnviar" id="btn">Eviar Correo</button>-->
+      <div class="conten">
+        <div id="notificacion" class="notEmail">
+            <img src="https://fotos.subefotos.com/9d3c5e949d2642e2db4d2b28a4fe0ef5o.gif"/>
+          <div class="mensaje_not">Correo enviado con éxito 1</div>
+          
+        </div>
+      </div>
+      <div id="entrar">
+        <h2>INICIAR SECION</h2>
+        <div class="cuadrousuario">
+            <h3>Usuario</h3>
+            <form class="form">
+                <input type="text" required>
+                <label class="lbl-nombre">
+                    <span class="text-nomb">Nombre</span>
+                </label>
+            </form>
+        </div>
+        <div>
+            <h3>Contraseña</h3>
+            <form class="form">
+                <input type="text" required>
+                <label class="lbl-nombre">
+                    <span class="text-nomb">Contraseña</span>
+                </label>
+            </form>
+        </div>
+        <a href="#" class="btn-neon">
+            <span id="span1"></span>
+            <span id="span2"></span>
+            <span id="span3"></span>
+            <span id="span4"></span>
+            BOTON NEON
+        </a>
+        <div class="cuadrosugerencias">
+            <div class="p-iz">
+                <p class="parrafoprincipal"> <a href="" class="pass">¿Has olvidado la contraseña?</a> </p>
+            </div>
+            <div class="p-de">
+                <p class="parrafosegundo">¿Nuevo usuario? <a href="" class="registro"> Registrate</a></p>
+            </div>
+            
+        </div>
+    </div>
+      
+    </div>
+
+    <script>
+        $("#btn").click(function() {
+          estilos();
+        });
+    </script>
+    <script src="./js/notificacion.js"></script>
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- stats.js lib -->
+    <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+    <script src="./js/p.js"></script>
+  </body>
+</html>
