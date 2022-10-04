@@ -10,13 +10,17 @@
     
 }
 body{
-    width: 100%;
-    height: 100vh;
-    display: flex;
+   
     background-color: #fafafa;
     font-family: 'Open Sans', sans-serif;
     /*overflow-x: hidden;*/
    
+}
+section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
 }
 .card {
     width: 190px;
@@ -30,13 +34,16 @@ body{
     width:  65%;
     height: 100%;
     background: #333469;
+    flex-direction: row;
+    
 } 
+
 canvas {
     display: block;
     /*vertical-align: bottom;*/
   } /* ---- particles.js container ---- */
 #particles-js {
-    position: absolute;
+    /*position: absolute;*/
     background-color: #fafafa;
     background-image: url("");
     background-repeat: no-repeat;
@@ -45,8 +52,11 @@ canvas {
   } /* ---- stats.js ---- */
 .segundo{
     width: 35%;
-    height: 100%;
+    /*height: 100%;*/
     background: #333D29;
+    display: flex;
+    align-items: center;
+    
 
 }
 /*Boron notificacion*/
@@ -113,12 +123,15 @@ box-shadow: 9px 5px 7px 0 rgba(0,0,0,0.3);
 
 /*-------------------------Input,buttonNeon-------------------*/
 #entrar{
-    width: 50%;
-    height: 60%;
-    margin-top: 30%;
-    margin-bottom: 10%;
-    margin-left: 25%;
-    margin-right: 25%;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: auto;
+    /*margin-top: 30%;*/
+    /*margin-bottom: 10%;*/
+    margin-left: 10%;
+    margin-right: 10%;
+    
     
 }
 #entrar input{
@@ -153,13 +166,13 @@ p{
 }
 
 h2{
-    font-size: 1.8rem;
+    font-size: 1.4em;
     margin-bottom: 15%;
     color: #A4AC86;
     text-align: center;
 }
 h3{
-    font-size: 1.5rem;
+    font-size: 1.2em;
     margin-bottom: 2%;
     color: #C2C5AA;
 
